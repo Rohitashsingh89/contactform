@@ -10,11 +10,11 @@ const app = express()
 
 const db = mysql.createPool({
     connectionLimit: 10,
-    host: "localhost",
-    user: "root",
-    password: "Mysql",
-    database: "rock2",
-    port: 3308,
+    host: "",
+    user: "",
+    password: "",
+    database: "",
+    port: ,
 });
 
 app.use(express.json())
